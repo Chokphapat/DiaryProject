@@ -1,0 +1,39 @@
+{
+  "name": "diaryproject",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-native-picker/picker": "^2.8.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/material-top-tabs": "^6.6.14",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "diaryproject": "file:",
+    "expo": "^51.0.32",
+    "expo-calendar": "~13.0.5",
+    "expo-router": "~3.5.23",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-calendars": "^1.1279.0",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "react-native-tab-view": "^3.5.2",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0"
+  },
+  "private": true
+}
